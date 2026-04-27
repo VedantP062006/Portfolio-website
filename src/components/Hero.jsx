@@ -57,8 +57,8 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <p className="text-primary-600 dark:text-primary-400 font-semibold tracking-wide uppercase mb-3">
-              Welcome to my portfolio
+            <p className="text-primary-600 dark:text-primary-400 font-semibold tracking-wide  mb-3">
+              Welcome to NeuraStack
             </p>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
               Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-purple-600">Vedant Patil</span>

@@ -25,3 +25,6 @@ dist-ssr
 
 # AI context / agent artifacts
 .gemini
+
+# Custom user files
+git_readme*
