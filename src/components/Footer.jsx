@@ -20,14 +20,11 @@ const Footer = () => {
               <Github size={20} />
               <span className="sr-only">GitHub</span>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+            <a href="http://www.linkedin.com/in/vedant-patil-491992378" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
               <Linkedin size={20} />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-400 dark:hover:text-blue-300 transition-colors">
-              <Twitter size={20} />
-              <span className="sr-only">Twitter</span>
-            </a>
+            
           </div>
         </div>
 

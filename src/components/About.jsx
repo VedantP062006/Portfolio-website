@@ -29,8 +29,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-tr from-primary-600 to-purple-600 rounded-2xl transform rotate-6 opacity-30 dark:opacity-50"></div>
               <div className="absolute inset-0 bg-gradient-to-tr from-primary-600 to-purple-600 rounded-2xl transform -rotate-6 opacity-30 dark:opacity-50"></div>
               <img
-                src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                alt="Profile"
+                src="WhatsApp Image 2026-05-01 at 19.04.50.jpeg"
                 className="relative rounded-2xl object-cover w-full h-full shadow-2xl border-4 border-white dark:border-slate-800"
               />
             </div>
@@ -54,13 +53,6 @@ const About = () => {
               When I'm not writing code or debugging neural networks, you can find me contributing to open-source projects, writing technical articles, or reading about the latest tech trends.
             </p>
 
-            <div className="grid grid-cols-2 gap-4">
-              <div className="p-4 rounded-xl glass-card text-center">
-                <h4 className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-1">10+</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">Projects Built</p>
-              </div>
-
-            </div>
           </motion.div>
         </div>
       </div>

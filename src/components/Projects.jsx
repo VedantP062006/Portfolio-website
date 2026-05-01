@@ -5,31 +5,23 @@ import { Github, ExternalLink } from 'lucide-react';
 const projectsData = [
   {
     id: 1,
-    title: 'SoilSense AI',
+    title: 'AiMSA video streaming platform ',
     description: 'A full-stack application leveraging Machine Learning to predict soil health and provide precise crop recommendations based on NPK values.',
-    image: 'https://images.unsplash.com/photo-1628187843812-70b777a8cbba?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    tags: ['React', 'Node.js', 'Python', 'Flask'],
-    github: 'https://github.com/alexdoe/soilsense',
+    image: 'download.jpg',
+    tags: ['React', 'Node.js', 'Mongodb', ],
+    github: 'https://github.com/VedantP062006/AiMSA-video-streaming.git',
     live: 'https://soilsense.demo.com'
   },
   {
     id: 2,
-    title: 'E-Commerce Dashboard',
+    title: 'Movie reccomendation system using Machine learning',
     description: 'An administrative dashboard for an e-commerce platform featuring real-time analytics, inventory management, and smooth dark mode UI.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    tags: ['Next.js', 'Tailwind', 'MongoDB', 'Recharts'],
-    github: 'https://github.com/alexdoe/dashboard',
+    image: 'download (1).jpg',
+    tags: ['Python', 'Pythoch', 'TenserFlow'],
+    github: 'https://github.com/VedantP062006/movie-recommendation-system.git',
     live: 'https://admin-dash.demo.com'
   },
-  {
-    id: 3,
-    title: 'Portfolio Themes Manager',
-    description: 'A React module to easily switch and manage dual-mode portfolios (Recruiter vs Developer modes) with local storage persistence.',
-    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    tags: ['React', 'Framer Motion', 'Zustand'],
-    github: 'https://github.com/alexdoe/portfolio-manager',
-    live: 'https://portfolio-mgr.demo.com'
-  }
+  
 ];
 
 const ProjectCard = ({ project, index }) => (
@@ -71,14 +63,14 @@ const ProjectCard = ({ project, index }) => (
         >
           <Github size={18} /> Code
         </a>
-        <a
+        {/* <a
           href={project.live}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center text-gray-600 hover:text-primary-600 dark:text-gray-400 dark:hover:text-primary-400 transition-colors gap-2 text-sm font-medium"
         >
           <ExternalLink size={18} /> Live Demo
-        </a>
+        </a> */}
       </div>
     </div>
   </motion.div>
