@@ -7,7 +7,7 @@ const projectsData = [
     id: 1,
     title: 'AiMSA video streaming platform ',
     description: 'A full-stack application leveraging Machine Learning to predict soil health and provide precise crop recommendations based on NPK values.',
-    image: 'public/Images/project1.jpg',
+    image: '/Images/project1.jpg',
     tags: ['React', 'Node.js', 'Mongodb', ],
     github: 'https://github.com/VedantP062006/AiMSA-video-streaming.git',
     live: 'https://soilsense.demo.com'
@@ -16,7 +16,7 @@ const projectsData = [
     id: 2,
     title: 'Movie reccomendation system using Machine learning',
     description: 'An administrative dashboard for an e-commerce platform featuring real-time analytics, inventory management, and smooth dark mode UI.',
-    image: 'public/Images/project2.jpg',
+    image: '/Images/project2.jpg',
     tags: ['Python', 'Pythoch', 'TenserFlow'],
     github: 'https://github.com/VedantP062006/movie-recommendation-system.git',
     live: 'https://admin-dash.demo.com'

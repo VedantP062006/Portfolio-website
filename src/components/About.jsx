@@ -29,7 +29,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-tr from-primary-600 to-purple-600 rounded-2xl transform rotate-6 opacity-30 dark:opacity-50"></div>
               <div className="absolute inset-0 bg-gradient-to-tr from-primary-600 to-purple-600 rounded-2xl transform -rotate-6 opacity-30 dark:opacity-50"></div>
               <img
-                src="public/Images/profile.jpeg"
+                src="/Images/profile.jpeg"
                 className="relative rounded-2xl object-cover w-full h-full shadow-2xl border-4 border-white dark:border-slate-800"
               />
             </div>
